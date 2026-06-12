@@ -2,7 +2,7 @@
 
 Public bug tracker for Cities: Skylines mods by ScratchyBald.
 
-Use the Issues tab to report bugs, compatibility problems, or confusing behavior. Please include the mod name, game version, mod version, steps to reproduce, expected behavior, actual behavior, and relevant log excerpts.
+Use the Issues tab and choose the Bug report form to report bugs, compatibility problems, or confusing behavior. The form asks for the affected mod, game version, mod version, save type, reproduction steps, expected behavior, actual behavior, other active mods, and relevant log excerpts.
 
 Do not post personal information, save files with private data, or full logs that include local filesystem paths. Trim reports to the details needed to reproduce the issue.
 

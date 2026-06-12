@@ -1,0 +1,130 @@
+name: Bug report
+description: "Report a reproducible bug with one of ScratchyBald's Cities: Skylines mods"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        Please complete the form below with enough detail to reproduce the issue. Do not post personal information, full unfiltered logs, local filesystem paths, email addresses, or save files that contain private data.
+
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Affected mod
+      description: Choose the main mod where you saw the issue.
+      options:
+        - Auto Public Transit Planner
+        - Bus Lane Priority
+        - Pedestrian Crossing Toolkit
+        - Stop Stacker
+        - Multiple ScratchyBald mods
+        - Other / unsure
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      description: The version shown on the Steam Workshop page or in the mod's descriptor.
+      placeholder: "Example: 1.0.2"
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: "Cities: Skylines version"
+      description: The game version shown in the main menu.
+      placeholder: "Example: 1.21.1-f9"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: save-type
+    attributes:
+      label: Where did it happen?
+      description: This helps separate new-city setup issues from save-specific behavior.
+      options:
+        - Existing city save
+        - New city / fresh test
+        - Map editor or asset editor
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly. Include what you clicked, what the city was doing, and what looked wrong.
+      placeholder: "Example: After running Scan, Build & Apply, the panel said lines were created but no buses spawned."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Tell us the expected behavior.
+      placeholder: "Example: APT should create visible bus lines and the first buses should dispatch from depots."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give numbered steps. If it is intermittent, describe the shortest reliable path you have found.
+      placeholder: |
+        1. Load the city.
+        2. Open the mod panel.
+        3. Click ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other active mods
+      description: List relevant transport, road, vehicle, AI, UI, Harmony, loading, or public transport mods. A full mod list is helpful if the issue may be compatibility-related.
+      placeholder: "Example: TM:PE, Harmony, Loading Screen Mod, Improved Public Transport Essentials, Transit Vehicle Spawn Delay"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log lines
+      description: Paste only the relevant excerpts. Please remove local paths, personal names, emails, and any other private information before posting.
+      placeholder: |
+        Look for prefixes such as:
+        [AutoPublicTransit]
+        [BusLanePriority]
+        [PedestrianCrossingToolkit]
+        [StopStacker]
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or short video
+      description: Drag screenshots or a short clip here if they make the issue easier to understand.
+      placeholder: "Attach images/video if useful."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      description: Confirm the report does not expose private data.
+      options:
+        - label: I have removed personal information, local filesystem paths, email addresses, and unrelated full-log content from this report.
+          required: true
