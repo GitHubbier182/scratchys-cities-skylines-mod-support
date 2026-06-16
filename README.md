@@ -19,5 +19,6 @@ Do not post personal information, save files with private data, or full logs tha
 - Auto Public Transit Planner: https://github.com/GitHubbier182/cities-skylines-auto-public-transit-planner
 - Bus Lane Priority: https://github.com/GitHubbier182/cities-skylines-bus-lane-priority
 - Pedestrian Crossing Toolkit: https://github.com/GitHubbier182/cities-skylines-pedestrian-crossing-toolkit
+- Utility Roads: https://github.com/GitHubbier182/cities-skylines-utility-roads
 
 Stop Stacker source sharing is paused until a stable public version is ready.
