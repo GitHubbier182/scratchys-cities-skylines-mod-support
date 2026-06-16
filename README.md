@@ -6,6 +6,14 @@ Use the Issues tab and choose the Bug report form to report bugs, compatibility 
 
 Do not post personal information, save files with private data, or full logs that include local filesystem paths. Trim reports to the details needed to reproduce the issue.
 
+## Bug-Reportable Mods
+
+- Auto Public Transit Planner
+- Bus Lane Priority
+- Pedestrian Crossing Toolkit
+- Stop Stacker
+- Utility Roads
+
 ## Public Source Mirrors
 
 - Auto Public Transit Planner: https://github.com/GitHubbier182/cities-skylines-auto-public-transit-planner
