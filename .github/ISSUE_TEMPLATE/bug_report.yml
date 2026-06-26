@@ -101,7 +101,7 @@ body:
     id: logs
     attributes:
       label: Relevant log lines
-      description: Paste only the relevant excerpts. Please remove local paths, personal names, emails, and any other private information before posting.
+      description: Paste only the relevant excerpts from Player.log / output_log.txt. Please remove local paths, personal names, emails, and any other private information before posting.
       placeholder: |
         Look for prefixes such as:
         [AutoPublicTransit]
