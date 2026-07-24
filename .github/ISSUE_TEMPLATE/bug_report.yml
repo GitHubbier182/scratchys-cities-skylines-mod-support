@@ -2,6 +2,7 @@ name: Bug report
 description: "Report a reproducible bug with one of ScratchyBald's Cities: Skylines mods"
 title: "[Bug]: "
 labels: ["bug"]
+assignees: ["GitHubbier182"]
 body:
   - type: markdown
     attributes:
