@@ -19,8 +19,11 @@ body:
         - Auto Public Transit Planner
         - Bus Lane Priority
         - Pedestrian Crossing Toolkit
+        - Real Office Supplies
         - Stop Stacker
+        - Underground Parking Garage
         - Utility Roads
+        - Vehicle Wealthizer Revisited
         - Multiple ScratchyBald mods
         - Other / unsure
     validations:
@@ -107,8 +110,11 @@ body:
         [AutoPublicTransit]
         [BusLanePriority]
         [PedestrianCrossingToolkit]
+        [Real Office Supplies]
         [StopStacker]
+        [UndergroundParkingGarage]
         [UtilityRoads]
+        [VehicleWealthizerRevisited]
       render: text
     validations:
       required: false
