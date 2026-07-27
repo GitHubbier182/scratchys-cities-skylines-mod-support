@@ -25,8 +25,7 @@ Do not post personal information, save files with private data, or full logs tha
 - City Air Mobility: https://github.com/GitHubbier182/cities-skylines-city-air-mobility
 - Pedestrian Crossing Toolkit: https://github.com/GitHubbier182/cities-skylines-pedestrian-crossing-toolkit
 - Real Office Supplies: https://github.com/GitHubbier182/cities-skylines-real-office-supplies
+- Stop Stacker: https://github.com/GitHubbier182/cities-skylines-stop-stacker
 - Underground Parking Garage: https://github.com/GitHubbier182/cities-skylines-underground-parking-garage
 - Utility Roads: https://github.com/GitHubbier182/cities-skylines-utility-roads
 - Vehicle Wealthizer Revisited: https://github.com/GitHubbier182/cities-skylines-vehicle-wealthizer-revisited
-
-Stop Stacker source sharing is paused until a stable public version is ready.
