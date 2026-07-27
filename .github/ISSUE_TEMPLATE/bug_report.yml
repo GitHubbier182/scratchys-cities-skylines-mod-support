@@ -19,6 +19,7 @@ body:
       options:
         - Auto Public Transit Planner
         - Bus Lane Priority
+        - "City Air Mobility: Flying Cars & Delivery Drones"
         - Pedestrian Crossing Toolkit
         - Real Office Supplies
         - Stop Stacker
@@ -101,15 +102,29 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+        ### Where to find `Player.log` / `output_log.txt`
+
+        Close Cities: Skylines after reproducing the problem so the latest log is complete, then use the steps for your system:
+
+        - **Windows:** Press **Windows key + R**, paste `%LOCALAPPDATA%\Colossal Order\Cities_Skylines`, and press **Enter**. Look for `Player.log` or `output_log.txt`.
+        - **macOS:** In Finder choose **Go → Go to Folder…**, paste `~/Library/Logs/Unity/`, and press **Return**. Open `Player.log` (or `output_log.txt` if that is the file present).
+        - **Linux:** Show hidden files in your file manager, then open `~/.config/unity3d/Colossal Order/Cities_Skylines/`. Look for `Player.log` or `output_log.txt`.
+
+        Copy only the lines around the problem. Search the file for the affected mod's prefix below. Remove usernames, personal names, email addresses, and local paths before posting.
+
   - type: textarea
     id: logs
     attributes:
       label: Relevant log lines
-      description: Paste only the relevant excerpts from Player.log / output_log.txt. Please remove local paths, personal names, emails, and any other private information before posting.
+      description: Paste only the relevant excerpts from Player.log / output_log.txt after following the location and privacy guidance above.
       placeholder: |
         Look for prefixes such as:
         [AutoPublicTransit]
         [BusLanePriority]
+        [CityAirMobility]
         [PedestrianCrossingToolkit]
         [Real Office Supplies]
         [StopStacker]
