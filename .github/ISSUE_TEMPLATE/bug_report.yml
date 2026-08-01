@@ -9,6 +9,12 @@ body:
       value: |
         Thanks for taking the time to report this.
 
+        ## Before you report: capture an advanced-debugging log
+
+        In **Options → Mods**, open the affected ScratchyBald mod and switch on **Enable advanced logs**. Then reproduce the issue, close Cities: Skylines so the log is complete, and send the relevant lines from that newly generated `Player.log` or `output_log.txt`.
+
+        Please do **not** send a standard log captured with advanced debugging off unless you cannot enable the setting, cannot reproduce the issue, or the problem was a one-off. If one of those exceptions applies, send the log you have and explain why an advanced-debugging reproduction was not possible.
+
         Please complete the form below with enough detail to reproduce the issue. Do not post personal information, full unfiltered logs, local filesystem paths, email addresses, or save files that contain private data.
 
   - type: dropdown
@@ -107,19 +113,19 @@ body:
       value: |
         ### Where to find `Player.log` / `output_log.txt`
 
-        Close Cities: Skylines after reproducing the problem so the latest log is complete, then use the steps for your system:
+        After enabling **Enable advanced logs** and reproducing the problem, close Cities: Skylines so the latest log is complete, then use the steps for your system:
 
         - **Windows:** Press **Windows key + R**, paste `%LOCALAPPDATA%\Colossal Order\Cities_Skylines`, and press **Enter**. Look for `Player.log` or `output_log.txt`.
         - **macOS:** In Finder choose **Go → Go to Folder…**, paste `~/Library/Logs/Unity/`, and press **Return**. Open `Player.log` (or `output_log.txt` if that is the file present).
         - **Linux:** Show hidden files in your file manager, then open `~/.config/unity3d/Colossal Order/Cities_Skylines/`. Look for `Player.log` or `output_log.txt`.
 
-        Copy only the lines around the problem. Search the file for the affected mod's prefix below. Remove usernames, personal names, email addresses, and local paths before posting.
+        Copy only the lines around the reproduced problem from this advanced-debugging log. Search the file for the affected mod's prefix below. Remove usernames, personal names, email addresses, and local paths before posting. Use a standard log only if you could not enable advanced debugging, could not reproduce the issue, or the problem was a one-off, and explain which exception applies.
 
   - type: textarea
     id: logs
     attributes:
       label: Relevant log lines
-      description: Paste only the relevant excerpts from Player.log / output_log.txt after following the location and privacy guidance above.
+      description: Paste relevant excerpts from the new Player.log / output_log.txt captured after enabling advanced logs and reproducing the issue, or explain why only a standard or one-off log is available.
       placeholder: |
         Look for prefixes such as:
         [AutoPublicTransit]
